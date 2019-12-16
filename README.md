@@ -43,7 +43,7 @@ COMMIT
 
 Поключаемся под рутом к `centralRouter`
 
-Коннект к `192.168.225.1` неудачный
+Коннект к `inetRouter` неудачный
 ```
 [root@centralRouter vagrant]# ssh vagrant@192.168.255.1
 ^C
@@ -80,3 +80,7 @@ Warning: Permanently added '192.168.255.1' (RSA) to the list of known hosts.
 vagrant@192.168.255.1's password:
 ```
 
+
+Смотрим браузер на нашем пк
+
+![browser](https://github.com/mariosmolov/otus-iptables/blob/master/Screenshot_1.png)
