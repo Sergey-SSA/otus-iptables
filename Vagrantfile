@@ -62,7 +62,7 @@ Vagrant.configure("2") do |config|
         case boxname.to_s
         when "inetRouter"
           box.vm.provision :file do |file|
-          file.source      = './knock/iptables'
+          file.source      = './iptables'
           file.destination = '/home/vagrant/iptables'
           end
           box.vm.provision "shell", run: "always", inline: <<-SHELL
